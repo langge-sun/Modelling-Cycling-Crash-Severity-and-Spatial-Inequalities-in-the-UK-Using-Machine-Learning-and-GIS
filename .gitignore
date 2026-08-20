@@ -1,0 +1,25 @@
+.ipynb_checkpoints/
+.DS_Store
+
+# raw data
+*.csv
+*.xlsx
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+*.tif
+*.tif.aux.xml
+
+# large media
+*.svg
+*.png
+*.jpg
+*.jpeg
+
+# docs/drafts (not code)
+*.docx
+*.pdf
+*.pptx
