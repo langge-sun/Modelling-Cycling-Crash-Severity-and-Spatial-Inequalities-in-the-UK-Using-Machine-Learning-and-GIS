@@ -1,7 +1,7 @@
 # Modelling Cycling Crash Severity and Spatial Inequalities in the UK Using Machine Learning and GIS
 
 Analysis notebook for a dissertation project modelling cycling crash severity and spatial
-inequalities across UK cities (Birmingham, London, Manchester), using machine learning
+inequalities across UK regions (West Midlands, Great London, Great Manchester), using machine learning
 (LightGBM / Random Forest with SHAP explainability) and GIS-based exposure normalisation.
 
 ## Contents
