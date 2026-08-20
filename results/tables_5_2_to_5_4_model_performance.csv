@@ -1,0 +1,10 @@
+Model,Accuracy,Precision,Recall,F1,AUC,Eval,Region
+Logistic Regression,0.558,0.233,0.477,0.313,0.535,80/20 split,Greater London
+Random Forest,0.589,0.241,0.442,0.312,0.567,80/20 split,Greater London
+LightGBM,0.628,0.231,0.328,0.271,0.568,80/20 split,Greater London
+Logistic Regression,0.535 ±0.030,0.345 ±0.025,0.491 ±0.048,0.404 ±0.028,0.537 ±0.027,5-fold CV,Greater Manchester
+Random Forest,0.578 ±0.024,0.338 ±0.024,0.321 ±0.070,0.325 ±0.040,0.530 ±0.027,5-fold CV,Greater Manchester
+LightGBM,0.585 ±0.034,0.343 ±0.055,0.313 ±0.050,0.327 ±0.051,0.522 ±0.051,5-fold CV,Greater Manchester
+Logistic Regression,0.531 ±0.014,0.266 ±0.019,0.469 ±0.088,0.339 ±0.038,0.517 ±0.021,5-fold CV,West Midlands
+Random Forest,0.616 ±0.026,0.295 ±0.015,0.344 ±0.063,0.315 ±0.030,0.575 ±0.011,5-fold CV,West Midlands
+LightGBM,0.644 ±0.015,0.292 ±0.046,0.268 ±0.067,0.278 ±0.056,0.583 ±0.042,5-fold CV,West Midlands

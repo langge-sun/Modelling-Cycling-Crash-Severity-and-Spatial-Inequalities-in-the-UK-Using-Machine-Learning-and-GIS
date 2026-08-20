@@ -1,8 +1,9 @@
 .ipynb_checkpoints/
 .DS_Store
 
-# raw data
+# raw data (but keep small result summaries under results/)
 *.csv
+!results/*.csv
 *.xlsx
 *.shp
 *.shx
