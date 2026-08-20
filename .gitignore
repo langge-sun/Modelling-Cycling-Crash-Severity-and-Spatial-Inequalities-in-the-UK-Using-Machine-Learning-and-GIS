@@ -14,11 +14,12 @@
 *.tif
 *.tif.aux.xml
 
-# large media
+# large media (but keep the curated result charts under figures/)
 *.svg
 *.png
 *.jpg
 *.jpeg
+!figures/*.png
 
 # docs/drafts (not code)
 *.docx

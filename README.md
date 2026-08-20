@@ -26,6 +26,12 @@ Raw datasets (DfT road casualty statistics, ONS/IMD indices, GIS rasters and sha
 are not included in this repository due to size and licensing considerations. See the
 notebook for the expected file names and sources.
 
+## Figures
+
+Result charts (ROC curves, SHAP importance/beeswarm plots, exposure-normalised rate charts)
+for each city/region are available under `figures/`. The same charts are also rendered
+inline inside the notebook.
+
 ## Results
 
 Small summary tables produced by the notebook are included under `results/`:
