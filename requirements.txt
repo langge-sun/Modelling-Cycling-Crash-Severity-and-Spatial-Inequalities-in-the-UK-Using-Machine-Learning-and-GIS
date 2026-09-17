@@ -1,9 +1,16 @@
-pandas
-numpy
-scipy
-scikit-learn
-imbalanced-learn
-lightgbm
-shap
-matplotlib
-seaborn
+# Versions are those used to produce the reported results (Table A1 of the
+# technical appendix). Python 3.13.5 (Anaconda). The code was not tested
+# against other versions.
+
+pandas==2.2.3
+numpy==2.1.3
+scipy==1.15.3
+scikit-learn==1.6.1
+imbalanced-learn==0.13.0
+lightgbm==4.6.0
+shap==0.52.0
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# Required by pandas.read_excel to open the IMD 2019 .xlsx release.
+openpyxl

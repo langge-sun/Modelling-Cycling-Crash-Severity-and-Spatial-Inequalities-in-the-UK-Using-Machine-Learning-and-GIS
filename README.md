@@ -20,8 +20,9 @@ Chapter 5 and writes to separate filenames (`*_categorical_*.png`,
 `appendix_d_categorical_encoding.csv`) so it cannot overwrite Cell C's output.
 
 Figures 1–3 (kernel density hotspot maps) are produced in QGIS with a 500 m bandwidth, not in
-this notebook. The full QGIS procedure and every parameter are documented in the technical
-appendix submitted with the project.
+this notebook. The rendered maps are in `figures/` as `*_kde_hotspot_map.png`; the full QGIS
+procedure and every parameter are documented in the technical appendix submitted with the
+project.
 
 ## Data
 
@@ -66,15 +67,21 @@ seeds are fixed, so on identical inputs the printed numbers reproduce the report
 
 ## Results
 
-Summary tables written by the notebook are included under `results/`:
+The four summary tables written by the notebook are under `results/`:
 
 - `table_3_colocation_representation_ratios.csv` — Table 3
 - `table_4_exposure_normalised_rates.csv` — Table 4
 - `tables_5_to_7_model_performance.csv` — Tables 5–7
 - `appendix_d_categorical_encoding.csv` — Appendix D
 
-Figures are written alongside as PNGs (`*_exposure_normalised_rate.png`, `*_roc.png`,
-`*_shap_*.png`, and the `*_categorical_*.png` set from Cell D).
+Figures are under `figures/`: `*_kde_hotspot_map.png` (Figures 1–3, from QGIS),
+`*_exposure_normalised_rate.png` (Figures 4–6), `*_roc.png` (Figures 7–9) and
+`*_shap_*.png` (Figures 10–12). Cell D also writes a `*_categorical_*.png` set; those
+figures are not reproduced in the report and are not included here.
+
+The notebook writes all of these into whichever directory it is run from, not into `figures/`
+and `results/`. Those two folders hold the copies produced by the run reported in the project;
+move newly generated files into them if you want to replace those copies.
 
 ## Notes on reproducibility
 
